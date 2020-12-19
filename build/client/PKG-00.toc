@@ -36,6 +36,7 @@
    'C:\\Users\\emili\\Documents\\python '
    'projects\\Python-Voice-Chat-master\\client.py',
    'PYSOURCE'),
+  ('v', None, 'OPTION'),
   ('client.exe.manifest',
    'C:\\Users\\emili\\Documents\\python '
    'projects\\Python-Voice-Chat-master\\build\\client\\client.exe.manifest',
