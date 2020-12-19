@@ -106,8 +106,8 @@ class Client(tk.Frame):
                     self.connect_button.configure(fg='green')
 
                     break
-                except:
-                    print("Couldn't connect to server")
+                except Exception as e:
+                    print(e)
                     pass
         else:
             self.s.close()
