@@ -33,6 +33,11 @@ class Client(tk.Frame):
                 else:
                     self.audio_devices[1][p.get_device_info_by_host_api_device_index(0,i).get('name')] = p.get_device_info_by_host_api_device_index(0,i).get('index')
 
+        if self.audio_devices==[{},{}]:
+            self.audio_devices=[{"None":0},{"None":0}]
+
+        print(self.audio_devices)
+
         self.target_ip = "192.168.2.245"
         self.target_port = int(80)
 
